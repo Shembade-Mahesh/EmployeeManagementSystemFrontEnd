@@ -1,0 +1,28 @@
+
+<table class="table table-striped">
+    <thead>
+      <tr><th colspan="4"><h1>Employee list</h1></th></tr>
+      <tr>
+        <!-- <th scope="col">Id</th> -->
+        <th scope="col">FirstName</th>
+        <th scope="col">LastName</th>
+        <th scope="col">email</th>
+        <th scope="col">Actions</th>
+
+      </tr>
+    </thead>
+    <tbody *ngFor="let e of employee | async">
+      <tr>
+        <!-- <td>{{e.id}}</td> -->
+        <td>{{e.firstName}}</td>
+        <td>{{e.lastName}}</td>
+        <td>{{e.emailId}}</td>
+        <td><button (click)="deleteEmployee(e.id)" (click)="reloadPage()" class="Danger">Delete</button></td>
+        <td><button (click)="updateEmployee(e.emailId)" class="success">Update</button></td>
+        <td><button (click)="employeeDetails(e.id)" class="Details">Detail</button></td>
+       
+        
+      </tr>
+      
+    </tbody>
+  </table>

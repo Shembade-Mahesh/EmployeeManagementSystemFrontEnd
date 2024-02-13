@@ -1,0 +1,20 @@
+<div class="employee-card" *ngIf="employee">
+    <h1>Employee Details</h1>
+    <div class="employee-info">
+        <label class="employee-label"><b>First Name:</b></label>
+        <span class="employee-detail">{{employee.firstName}}</span>
+    </div>
+    <div class="employee-info">
+        <label class="employee-label"><b>Last Name:</b></label>
+        <span class="employee-detail">{{employee.lastName}}</span>
+    </div>
+    <div class="employee-info">
+        <label class="employee-label"><b>Email:</b></label>
+        <span class="employee-detail">{{employee.emailId}}</span>
+    </div>
+    
+    <div class="back-button" >
+        <a routerLink="/employeelist">Back </a>
+    </div>
+</div>
+

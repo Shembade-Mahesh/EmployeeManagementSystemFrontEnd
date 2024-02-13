@@ -1,0 +1,14 @@
+
+.back-button{
+    background-color: rgb(15, 180, 15);
+    text-align: center;
+    
+}
+a{
+    color: aliceblue;
+}
+.confirmation-container{
+    width: 400px;
+    margin: auto;
+    box-shadow: 100px;
+}

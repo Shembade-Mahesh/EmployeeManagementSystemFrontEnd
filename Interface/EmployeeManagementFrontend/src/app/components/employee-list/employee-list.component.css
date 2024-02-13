@@ -1,0 +1,23 @@
+.Danger{
+    background-color: red;
+    color: white;
+}
+.success{
+    background-color: rgb(37, 73, 163);
+    color: white;
+}
+.Details{
+    background-color: rgba(4, 69, 125, 0.773);
+    color: white;
+}
+.table{
+    width: 400px;
+    margin: auto;
+    border: 2px solid grey;
+    margin-top: 5px;
+    
+}
+h1{
+    
+    text-align: center;
+}
